@@ -48,7 +48,7 @@ Then run the following (adding configure arguments for optional features):
 
 ```bash
 git clone https://github.com/owntone/owntone-server.git
-cd forked-daapd
+cd owntone-server
 autoreconf -i
 ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var
 make
